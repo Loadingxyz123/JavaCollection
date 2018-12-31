@@ -53,7 +53,6 @@ public class Person {
 
     @Override
     public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
-        return result;
+        return id != null ? id.hashCode() : 0;
     }
 }
